@@ -5,6 +5,9 @@ import time
 
 st.title("⚡🤖 Real-Time Color Detection Web App")
 st.markdown("**🎨 Detect and track selected colors in real-time using your webcam**  \n👨‍💻 Developed by **Rayyan Ahmed**")
+st.markdown("**Note: On Streamlit Cloud, you cannot capture webcam video. The app will always fail to grab frames.
+To demo on the cloud, you would need to upload a video or image instead of using a webcam or use locally.**")
+
 
 
 # ---------------------------- Set background ----------------------------
@@ -189,3 +192,4 @@ while True:
     time.sleep(0.01)
 
 cap.release()
+
